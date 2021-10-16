@@ -23,6 +23,14 @@ a {
     --ft-two: 1.5rem;
 }
 
+.cart {
+    background-color: rgb(26, 91, 171);
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
 
 
 /*  ***************** Conetnt Style ***********************  */
@@ -215,6 +223,52 @@ input[type=text], input[type=password] {
 
 }
 
+
+
+
+
+
+/* *********************************** Product Page Style ************************ */
+.productPage {
+    /* background-color: rgb(184, 184, 247); */
+    display: flex;
+    flex-direction: row;
+}
+.productInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+/* *********************************** Cart Page Style ************************ */
+.contentProducts, .forms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 15px;
+}
+.product {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.product img {
+    width: 10%;
+}
 
 /* ************************ Media Query ************************ */
 @media screen and (max-width: 1024px) {
